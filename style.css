@@ -1,1 +1,128 @@
 
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    background-color: white;
+    flex: 1 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Oswald";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 6.875rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.logotype{
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3.313rem;
+    text-align: center;
+    color: #000000;
+    opacity: 0.2;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.875rem;
+}
+
+.menu_element{
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.preview_img{
+    background-image: url(/image/image\ 1.png);
+    background-repeat: no-repeat;
+    height: 38.875rem;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview_text{
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 5.563rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.line{
+    width: 5rem;
+    height: 0.625rem;
+    background-color:#817070;
+    
+}
+
+.story{
+    margin: 3.75rem;
+    height: 39.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 3.75rem 0;
+}
+
+.story_text_img{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.story_text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    width: 597px;
+    height: 180px;
+    margin: 0 63px 0 0;
+}
+
+.story_img{
+    width: 600px;
+    height: 400px;
+    background-image: url(/image/image\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 40px 0 0;
+}
